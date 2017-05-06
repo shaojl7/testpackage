@@ -14,11 +14,11 @@ fars_summarize_years(years)
 Reporting System Data based on year specified
 }
 \description{
-\code{fars_summarize_years} reads in Fatality Analysis Reporting 
+\code{fars_summarize_years} reads in Fatality Analysis Reporting
   System data files based on the years specified and summarized the
   result based on the year and month.
 }
 \examples{
-fars_summarize_years(2015:2016)
+\dontrun{fars_summarize_years(2015:2016)}
 
 }

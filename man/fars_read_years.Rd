@@ -11,7 +11,7 @@ fars_read_years(years)
 }
 \value{
 \code{fars_read_years} will take in multiple years, and create standardized filenames,
-and then search for and read the filenames and return \code{tibble} \code{data.frame}. 
+and then search for and read the filenames and return \code{tibble} \code{data.frame}.
 If such filename with the specified year does not exist, an error message will return
 }
 \description{
@@ -19,6 +19,6 @@ If such filename with the specified year does not exist, an error message will r
 Fatality Analysis Reporting System Data based on the years specified
 }
 \examples{
-fars_read_years(2010:2017)
+\dontrun{fars_read_years(2010:2017)}
 
 }

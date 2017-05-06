@@ -17,6 +17,6 @@ it returns an error message returns if specified filename does not exist in the 
 \code{fars_read} reads the Fatality Analysis Reporting System
 }
 \examples{
-fars_read("daily_SPEC_2014.csv.bz2")
+\dontrun{fars_read('daily_SPEC_2014.csv.bz2')}
 
 }

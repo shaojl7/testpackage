@@ -9,11 +9,11 @@ fars_map_state(state.num, year)
 \arguments{
 \item{state.num}{\code{integer} number that specifies state number}
 
-\item{years}{\code{vector} of \code{numerical} value that converted to the year, used to specify filename}
+\item{year}{\code{vector} of \code{numerical} value that converted to the year, used to specify filename}
 }
 \value{
 \code{fars_map_state} plots a map of the accidients based on year
-and state specified. If there is no accident, a prompt message returns. 
+and state specified. If there is no accident, a prompt message returns.
 If an invalid state number is provided, an error will return.
 }
 \description{
@@ -21,6 +21,6 @@ If an invalid state number is provided, an error will return.
 based on year and state specified
 }
 \examples{
-fars_map_state(2, 2016)
+\dontrun{fars_map_state(2, 2016)}
 
 }

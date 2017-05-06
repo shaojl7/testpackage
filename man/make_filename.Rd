@@ -17,6 +17,6 @@ csv filename based on the year specified
 \code{make_file} creates a standardized filename based on the year specified
 }
 \examples{
-make_filename(2017)
+\dontrun{make_filename(2017)}
 
 }
